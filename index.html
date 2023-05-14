@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Noto+Sans+JP&family=Noto+Serif+JP&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d3a927a60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="icon" href="favicon_io/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>My-Page</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="header-logo"><a href="#">MY-PAGE</a></h1>
+
+        <div id="mask"></div>
+
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav">
+            <ul id="nav-list">
+                <li class="nav-item"><a href="#about">ABOUT</a></li>
+                <li class="nav-item"><a href="#skill">SKILLS</a></li>
+                <li class="nav-item"><a href="#work">WORKS</a></li>
+                <li class="nav-item"><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <ul id="nav-sns">
+                <li class="nav-sns-item nav-item"><a href="https://twitter.com/ka7de_works" target="_blank">Twitter</a></li>
+                <li class="nav-sns-item nav-item"><a href="https://www.instagram.com/kanade0112/" target="_blank">Instagram</a></li>
+                <li class="nav-sns-item nav-item"><a href="https://crowdworks.jp/public/employees/5169801?ref=mypage_nav1_account" target="_blank">CroudWorks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="container">
+        <section id="firstview">
+            <div id="title">
+                <h1 id="site-title">My-Portfolio</h1>
+                <p id="title-desc">私のportfolioになります。<br>
+                                   私自身を知ってもらう場であり、またスキルを見てもらう場でもあります。<br>
+                                   スキルアップに伴い、portfolioも随時更新していく予定です。<br>
+                                   最後までご覧頂ければ幸いです。</p>
+            </div>
+            <div id="main-view">
+                <ul id="view-list">
+                    <li class="view-item"><img src="img/firstview.jpg" id="first" alt="メイン画像"></li>
+                    <li class="view-item"><img src="img/prof02.jpg" alt="メイン画像"></li>
+                    <li class="view-item"><img src="img/iphone_photo2.JPG" alt="メイン画像"></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1 class="sec-title fade-in">ABOUT</h1>
+            <h2 class="sub-title fade-in">私について</h2>
+            <div id="about-desc">
+                <a id="about-img-link" class="fade-in" href="About.html">
+                    <img src="img/aboutme.jpg" alt="プロフィール画像">
+                    <div id="about-img-p">
+                        read more about me
+                    </div>
+                </a>
+                <div id="about-desc-p" class="fade-in">
+                    <p id="desc-p-greet">はじめまして。ご訪問頂きありがとうございます。<br>
+                        東京でフリーランスとして活動している<ruby>安藤<rt>あんどう</rt></ruby><ruby>奏<rt>かなで</rt></ruby>と言います。</p>
+                    <p id="desc-p-contents">千葉県の大学に在学中の大学4年生で同大学の大学院に進学予定です。<br>
+                        プログラミング等の勉強をしながらコーヒーを飲んだり、週1回はバスケをして体を動かしたり、たまにはマンガを読んで休憩したり、長期休暇では泊まりで旅行に行ったり、冬はスノーボードをやったりしています。<br>
+                        現在は、クラウドワークスなどのサイトを通じて案件獲得を目指しつつ、さらなるスキルアップの為に日々勉強に励んでいます！</p>
+                </div>
+                <div class="item-link fade-in" id="item-link-about">
+                    <a href="About.html">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="skill">
+            <h1 class="sec-title fade-in">SkillS</h1>
+            <h2 class="sub-title fade-in">使用するスキル</h2>
+            <div class="skill-list fade-in">
+                <li class="skill-item">
+                  <div class="skill-image">
+                      <img src="img/logo-html.png" alt="html">
+                  </div>
+                  <h3 class="skill-name">HTML</h3>
+                  <p class="skill-desc">各セクションごとにまとまりがあり、見やすく分かりやすいコーディングを心がけています。</p>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-image">
+                      <img src="img/logo-css.png" alt="CSS">
+                  </div>
+                  <h3 class="skill-name">CSS</h3>
+                  <p class="skill-desc">誰が見てもわかりやすい、シンプルなマークアップを心がけています。</p>
+                </li>
+                <li class="skill-item">
+                  <div class="skill-image">
+                      <img src="img/logo-javascript.png" alt="Java Script">
+                  </div>
+                  <h3 class="skill-name">Java Script</h3>
+                  <p class="skill-desc">モダンなアニメーション・動きを、お客様の要望に合わせ実装します。</p>
+                </li>
+            </div>
+        </section>
+
+        <section id="work">
+            <h1 class="sec-title fade-in">WORKS</h1>
+            <h2 class="sub-title fade-in">制作実績</h2>
+            <ul id="work-list">
+                <li class="work-item fade-in">
+                    <div id="ver2-box">   
+                        <a href="#" id="ver2-box-link">
+                            <img src="img/portfolio_ver2.png" id="ver2-box-img" class="readmore" alt="portfolio ver02">
+                            <div id="ver2-box-p" class="readmore">
+                                read more
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <p class="item-title">My-Portfolio (ver02)</p>
+                        <dl class="item-detail">
+                            <dt>制作時間</dt>
+                            <dd>5日</dd>
+                            <dt>制作費用(目安)</dt>
+                            <dd>¥100,000</dd>
+                            <dt>使用したスキル</dt>
+                            <dd>html,css,JavaScript</dd>
+                        </dl>
+                        <div class="item-desc">
+                            <p class="desc-title">概要</p>
+                            <p class="desc">現在ご覧いただいている当サイトになります。ver01からデザインを変更し、JavaScriptを使用して動的なサイトに致しました。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="work-item fade-in">
+                    <div id="ver1-box">   
+                        <a href="index1.html" target="_blank" id="ver1-box-link">
+                            <img src="img/portfolio ver01.jpg" id="ver1-box-img" class="readmore" alt="portfolio ver01">
+                            <div id="ver1-box-p" class="readmore">
+                                read more
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <p class="item-title">My-Profile (ver01)</p>
+                        <dl class="item-detail">
+                            <dt>制作時間</dt>
+                            <dd>3日</dd>
+                            <dt>制作費用(目安)</dt>
+                            <dd>¥25,000 ~ ¥30,000</dd>
+                            <dt>使用したスキル</dt>
+                            <dd>html,css</dd>
+                        </dl>
+                        <div class="item-desc">
+                            <p class="desc-title">概要</p>
+                            <p class="desc">私が初めて1から全てデザインしたportfolioになります。htmlとcss、Bootstrapを使い制作致しました。</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="work-item fade-in">
+                    <div id="bike-box">   
+                        <a href="bike.html" target="_blank" id="bike-box-link">
+                            <img src="img/work_bike.png" id="bike-box-img" class="readmore" alt="自転車">
+                            <div id="bike-box-p" class="readmore">
+                                read more
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item-box">
+                        <p class="item-title">Profileサイト/LP</p>
+                        <dl class="item-detail">
+                            <dt>制作時間</dt>
+                            <dd>1日</dd>
+                            <dt>制作費用(目安)</dt>
+                            <dd>¥10,000</dd>
+                            <dt>使用したスキル</dt>
+                            <dd>html,css</dd>
+                        </dl>
+                        <div class="item-desc">
+                            <p class="desc-title">概要</p>
+                            <p class="desc">自転車を紹介するための簡単な架空サイトになります。数枚の写真でシンプルなデザインに致しました。</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="item-link item-link-work fade-in">
+                <a href="Works.html">View More</a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h1 class="sec-title fade-in">CONTACT</h1>
+            <h2 class="sub-title fade-in">お問い合わせ</h2>
+            <div class="contact-text fade-in">
+                <p class="contact-message">お問い合わせはこちらのアドレスまで！</p>
+                <p class="contact-mail">ka7de0112@gmail.com</p>
+            </div>
+            <p id="contact-p" class="fade-in">その他SNS・クラウドワークス等からも連絡お待ちしてます！</p>
+            <div class="contact-icon fade-in">
+                <a id="twitter" href="https://twitter.com/ka7de_works" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a id="insta" href="https://www.instagram.com/kanade0112/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a id="cw" href="https://crowdworks.jp/public/employees/5169801?ref=mypage_nav1_account" target="_blank">
+                    <span>CW</span>
+                </a>
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div class="footer-contents">
+                <div id="footer-flex">
+                    <ul class="section-link">
+                        <li class="section-link-item"><a href="#about">ABOUT</a></li>
+                        <li class="section-link-item"><a href="#skill">SKILLS</a></li>
+                        <li class="section-link-item"><a href="#work">WORKS</a></li>
+                        <li class="section-link-item"><a href="#contact">CONTACT</a></li>
+                    </ul>
+                    <ul class="footer-sns-link">
+                        <li class="footer-sns-link-item"><a href="https://twitter.com/ka7de_works" target="_blank">Twitter</a></li>
+                        <li class="footer-sns-link-item"><a href="https://www.instagram.com/kanade0112/" target="_blank">Instagram</a></li>
+                        <li class="footer-sns-link-item"><a href="https://crowdworks.jp/public/employees/5169801?ref=mypage_nav1_account" target="_blank">CroudWorks</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p id="copyright">&copy;2023 My-Page All rights reserved</p>
+        </footer>
+        <a id="top" href="#"></a>
